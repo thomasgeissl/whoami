@@ -101,7 +101,7 @@ export default function Template({ data }) {
           </li>
           <li>
             Several interactive installations with{" "}
-            <a href="https://www.instagram.com/nantlab/">nantlab</a>, raning
+            <a href="https://www.instagram.com/nantlab/">nantlab</a>, ranging
             from interior design to live visuals. E.g.{" "}
             <a href="http://nantlab.com/portfolio/bar-love-triangle/">
               Bar Love Triangle
