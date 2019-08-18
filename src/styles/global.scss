@@ -1,0 +1,31 @@
+@font-face {
+  font-family: alegreya;
+  src: url(../assets/fonts/AlegreyaSans-Light.ttf);
+}
+html {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  // rgb(32, 32, 32);
+  font-family: alegreya;
+  a {
+    color: rgb(192, 126, 0);
+  }
+  iframe,
+  img,
+  video {
+    width: 100%;
+  }
+  .date {
+    font-style: italic;
+  }
+  .projects,
+  .software,
+  .footer {
+    margin-top: 64px;
+  }
+  .media {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
