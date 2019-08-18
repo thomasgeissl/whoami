@@ -18,6 +18,12 @@ html {
   }
   .date {
     font-style: italic;
+    &::before {
+      content: "[";
+    }
+    &::after {
+      content: "]";
+    }
   }
   .projects,
   .software,
