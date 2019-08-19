@@ -36,7 +36,7 @@ export default function Template({ data }) {
           className="projects"
           // dangerouslySetInnerHTML={{ __html: projects.html }}
         >
-          Here is a short selection of projects i have worked on.
+          Here is a small selection of projects i have worked on.
           <ul>
             <li>
               Spinning vinyls with the grantler soundsystem dj collective.
@@ -80,7 +80,7 @@ export default function Template({ data }) {
             <li>
               Guitars and electronics at glumb band. We are currently working on
               our first ep "honesticide" (working title). A very early demo
-              snippet of la paresse is available here:<br></br>
+              snippet of "la paresse" is available here:<br></br>
               <audio src={laparesse} controls className="media"></audio>
               <br></br>
               It uses some custom plugins, e.g.{" "}
@@ -99,7 +99,7 @@ export default function Template({ data }) {
               <a href="http://www.martinlerf.de/projects/polywand/">
                 polygon wall
               </a>
-              , an interactive, kinectic installation in collaboration with{" "}
+              , an interactive, kinetic installation in collaboration with{" "}
               <a href="http://www.martinlerf.de/">Martin Lerf</a>.
               <iframe
                 src="https://player.vimeo.com/video/135904342"
@@ -115,7 +115,8 @@ export default function Template({ data }) {
             <li>
               Several interactive installations with{" "}
               <a href="https://www.instagram.com/nantlab/">nantlab</a>, ranging
-              from interior design to live visuals. E.g.{" "}
+              from interior design to live visuals and everything in between.
+              E.g.{" "}
               <a href="http://nantlab.com/portfolio/bar-love-triangle/">
                 Bar Love Triangle
               </a>{" "}
