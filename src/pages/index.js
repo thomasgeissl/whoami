@@ -36,7 +36,7 @@ export default function Template({ data }) {
           className="projects"
           // dangerouslySetInnerHTML={{ __html: projects.html }}
         >
-          Here is a small selection of projects i have worked on.
+          Here is a small selection of projects I have worked on.
           <ul>
             <li>
               Spinning vinyls with the grantler soundsystem dj collective.
@@ -62,7 +62,7 @@ export default function Template({ data }) {
               </a>{" "}
               is an audio visual performance by{" "}
               <a href="http://www.benbengler.com">Ben Bengler</a> and me. We
-              developed custom software based on{" "}
+              developed a custom software based on{" "}
               <a href="https://github.com/thomasgeissl/ofxLiveSet">
                 ofxLiveSet
               </a>{" "}
