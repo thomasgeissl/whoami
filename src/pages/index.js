@@ -117,7 +117,7 @@ export default function Template({ data }) {
                 Both projects are built with react, tonejs and mqtt. vgig
                 additionally uses react-three-fiber, a threejs react reconciler.
                 vjam and vgig run on github pages and are deployed via travis
-                continous integration.
+                continuous integration.
               </p>
               <p>A proper describtion will follow.</p>
               <Date>in 2020</Date>
@@ -176,7 +176,7 @@ export default function Template({ data }) {
               </p>
               <p>
                 The blogging software is written with gastbyjs, hosted on github
-                pages, deployed via travis continous integration.
+                pages, deployed via travis continuous integration.
               </p>
             </Project>
 
