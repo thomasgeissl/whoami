@@ -12,6 +12,15 @@ import styled from "styled-components"
 import ReactPlayer from "react-player"
 
 import "../styles/global.scss"
+const Player = ({ url }) => {
+  return (
+    <ReactPlayer
+      style={{ margin: "auto", maxWidth: "100%" }}
+      url={url}
+      controls={true}
+    />
+  )
+}
 
 const Container = styled.div`
   margin: auto;
@@ -60,7 +69,7 @@ const Date = styled.div`
   }
 `
 
-const CV = styled.div``
+// const CV = styled.div``
 const Footer = styled.footer`
   margin-top: 128px;
 `
@@ -186,14 +195,7 @@ export default function Template({ data }) {
                   <p>It is built with openFrameworks and JUCE.</p>
                 </Grid>
                 <Grid item xs={12} sm={8} className="rightAlign">
-                  <iframe
-                    src="https://player.vimeo.com/video/385237672"
-                    width="640"
-                    height="360"
-                    frameborder="0"
-                    allow="autoplay; fullscreen"
-                    allowfullscreen
-                  ></iframe>
+                  <Player url="https://player.vimeo.com/video/385237672"></Player>
                 </Grid>
               </Grid>
 
@@ -266,10 +268,9 @@ export default function Template({ data }) {
                       Sundance Film Festival
                     </a>
                   </p>
-                  <ReactPlayer
+                  <Player
                     style={{ margin: "auto" }}
                     url="https://player.vimeo.com/video/437790737"
-                    controls={true}
                   />
                 </Grid>
               </Grid>
@@ -299,16 +300,7 @@ export default function Template({ data }) {
                   <a href="http://www.martinlerf.de/">Martin Lerf</a>.
                 </Grid>
                 <Grid item xs={12} sm={8} className="rightAlign">
-                  <iframe
-                    title="polywand"
-                    src="https://player.vimeo.com/video/135904342"
-                    width="640"
-                    height="360"
-                    frameborder="0"
-                    allow="autoplay; fullscreen"
-                    allowfullscreen
-                    className="media"
-                  ></iframe>
+                  <Player url="https://player.vimeo.com/video/135904342"></Player>
                 </Grid>
               </Grid>
 
@@ -341,14 +333,10 @@ export default function Template({ data }) {
                   ).
                 </Grid>
                 <Grid item xs={12} sm={8} className="rightAlign">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/8ZhofVerLbA"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
+                  <Player
+                    style={{ margin: "auto" }}
+                    url="https://www.youtube.com/embed/8ZhofVerLbA"
+                  />
                 </Grid>
               </Grid>
 
