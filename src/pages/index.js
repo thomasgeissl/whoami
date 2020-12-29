@@ -94,11 +94,19 @@ export default function Template({ data }) {
           <List>
             <Project>
               <p>
-                <a href="https://thomasgeissl.github.io/vjam/" target="_blank">
+                <a
+                  href="https://thomasgeissl.github.io/vjam/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   vjam
                 </a>{" "}
                 and{" "}
-                <a href="https://thomasgeissl.github.io/vgig/" target="_blank">
+                <a
+                  href="https://thomasgeissl.github.io/vgig/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   vgig
                 </a>{" "}
                 are two collaborative musical experiments. They started as
@@ -112,11 +120,16 @@ export default function Template({ data }) {
                 <a
                   href="https://www.instagram.com/windysetiadi/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Windy Setiadi
                 </a>{" "}
                 and was shown at{" "}
-                <a href="https://mag20.mediaartglobale.com/#" target="_blank">
+                <a
+                  href="https://mag20.mediaartglobale.com/#"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Media Art Globale
                 </a>{" "}
                 2020.
@@ -137,6 +150,19 @@ export default function Template({ data }) {
                 Muenchen. It is able to capture video from live video sources or
                 load video clips from the hard disk. The software is fully midi
                 controllable, it can be synchronised with external midi clocks.
+              </p>
+              <p>
+                The most challenging part was to get accurate frame seeking
+                working. Some parts of the tool are already open source, e.g.
+                its{" "}
+                <a
+                  href="https://github.com/thomasgeissl/ofxImageSequencePlayer"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  video player
+                </a>
+                .
               </p>
               <p>It is built with openFrameworks.</p>
               <Date>in 2020</Date>
@@ -176,7 +202,11 @@ export default function Template({ data }) {
 
             <Project>
               <p>
-                <a href="https://grantlerrecords.com/" target="_blank">
+                <a
+                  href="https://grantlerrecords.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   grantler records
                 </a>{" "}
                 is a music label founded in 2020. Following the diy spirit, we
@@ -207,6 +237,7 @@ export default function Template({ data }) {
                   <a
                     href="https://grantlerrecords.com/artists/silent-sex"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Silent Sex
                   </a>
@@ -222,6 +253,7 @@ export default function Template({ data }) {
                     <a
                       href="https://www.locarnofestival.ch/LFF/locarno-2020.html"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Locarno Film Festival
                     </a>
@@ -229,6 +261,7 @@ export default function Template({ data }) {
                     <a
                       href="https://fpg.festival.sundance.org/film-info/5fd15a0504818b1962648d5"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Sundance Film Festival
                     </a>
