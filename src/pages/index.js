@@ -27,7 +27,7 @@ const Container = styled.div`
   max-width: 1024px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 24px;
+  font-size: 22px;
   audio {
     width: 100%;
     margin-top: 32px;
