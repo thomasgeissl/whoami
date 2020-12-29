@@ -9,6 +9,8 @@ import blt from "../assets/images/nantlab/blt.jpg"
 import vgig from "../assets/images/vgig/screenshot.png"
 import styled from "styled-components"
 
+import ReactPlayer from "react-player"
+
 import "../styles/global.scss"
 
 const Container = styled.div`
@@ -17,19 +19,26 @@ const Container = styled.div`
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 24px;
-  audio,
+  audio {
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
   img {
     width: 100%;
     margin-top: 64px;
     margin-bottom: 64px;
+  }
+  ul {
+    list-style-type: square;
   }
 `
 const List = styled.ul`
   list-style-type: square;
 `
 const Project = styled.li`
-  margin-top: 72px;
-  margin-bottom: 72px;
+  margin-top: 96px;
+  margin-bottom: 96px;
   &:nth-child(2) {
   }
   .rightAlign {
@@ -146,7 +155,7 @@ export default function Template({ data }) {
                     <a href="https://github.com/thomasgeissl/ofxLiveSet">
                       ofxLiveSet
                     </a>
-                    . It extracts audio features and create light patterns.
+                    . It extracts audio features and creates light patterns.
                   </p>
                   <p>It is built with openFrameworks and JUCE.</p>
                 </Grid>
@@ -181,14 +190,19 @@ export default function Template({ data }) {
             </Project>
 
             <Project>
-              As written earlier, music is a big thing in my life.
-              <ul>
-                <li>
-                  Guitars and electronics at glumb band. A very early demo
-                  snippet of "la paresse" is available here:<br></br>
+              <p>
+                As written earlier, music is a big thing in my life. Here are
+                some of my most recent musical projects.
+              </p>
+              <Grid container spacing={4}>
+                <Grid item xs={12} sm={6}>
+                  <h3>glump</h3>
                   <audio src={laparesse} controls></audio>
-                </li>
-                <li>
+                  Guitars and electronics at glumb band.
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                  <h3>Silent Sex</h3>
+                  <audio src={ohnmacht} controls></audio>
                   Keys and electronics at{" "}
                   <a
                     href="https://grantlerrecords.com/artists/silent-sex"
@@ -196,11 +210,39 @@ export default function Template({ data }) {
                   >
                     Silent Sex
                   </a>
-                  .<audio src={ohnmacht} controls></audio>
-                </li>
-              </ul>
+                  .
+                </Grid>
+
+                <Grid item xs={12}>
+                  <h3>Film Music</h3>
+                  <p>
+                    I had to pleasure to score my very talented friend Aylin's
+                    short film "Spirits and Rocks: an Azorean Myth". It was
+                    premiered at{" "}
+                    <a
+                      href="https://www.locarnofestival.ch/LFF/locarno-2020.html"
+                      target="_blank"
+                    >
+                      Locarno Film Festival
+                    </a>
+                    , its international premier will be at{" "}
+                    <a
+                      href="https://fpg.festival.sundance.org/film-info/5fd15a0504818b1962648d5"
+                      target="_blank"
+                    >
+                      Sundance Film Festival
+                    </a>
+                  </p>
+                  <ReactPlayer
+                    style={{ margin: "auto" }}
+                    url="https://player.vimeo.com/video/437790737"
+                    controls={true}
+                  />
+                </Grid>
+              </Grid>
               <p>
-                Some of our tracks use custom made plugins, e.g.{" "}
+                Very often i use experimental plugins, e.g. the custom made
+                plugins, such as{" "}
                 <a href="https://github.com/thomasgeissl/esrever">esrever</a>.
               </p>
               <Date>since 2018</Date>
