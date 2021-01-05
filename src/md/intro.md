@@ -9,4 +9,4 @@ I write my own performance software and tools, to make my life and the life of o
 
 Unfortunately, I cannot show most of the projects I have worked on due
 to confidentiality reasons. But here is a small selection of projects
-I have worked on aside from my job.
+I did aside from my job.
