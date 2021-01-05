@@ -5,11 +5,12 @@ import Date from "../Date"
 const Container = styled.li`
   margin-top: 96px;
   margin-bottom: 96px;
-  &:nth-child(2) {
-  }
   .rightAlign {
     padding-left: 24px;
     text-align: right;
+  }
+  &:first-of-type {
+    margin-top: 0;
   }
 `
 

@@ -15,7 +15,7 @@ const IconContainer = styled.header`
 export default () => {
   const iconStyle = { fontSize: "64px" }
   return (
-    <Section>
+    <Section headline={"What I can do for you"}>
       <Grid container spacing={3}>
         <Grid item sm={4} xs={12} style={{ textAlign: "center" }}>
           <IconContainer>

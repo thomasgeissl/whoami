@@ -32,9 +32,7 @@ const Container = styled.div`
 `
 
 // const CV = styled.div``
-const Footer = styled.footer`
-  margin-top: 128px;
-`
+const Footer = styled.footer``
 export default function Template({ data }) {
   const { intro, software, footer } = data
   return (
@@ -43,13 +41,13 @@ export default function Template({ data }) {
         <meta charSet="utf-8" />
         <title>whoami</title>
       </Helmet>
-      <Section>
+      <Section headline={"Intro"}>
         <div dangerouslySetInnerHTML={{ __html: intro.html }} />
       </Section>
 
       <Projects></Projects>
 
-      <Section>
+      <Section headline={"Open source software"}>
         <div
           className="software"
           dangerouslySetInnerHTML={{ __html: software.html }}
@@ -58,7 +56,7 @@ export default function Template({ data }) {
 
       <Skills></Skills>
 
-      <Section>
+      <Section headline={"The end"}>
         <Footer dangerouslySetInnerHTML={{ __html: footer.html }} />
       </Section>
     </Container>

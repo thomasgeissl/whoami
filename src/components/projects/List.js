@@ -18,7 +18,7 @@ const List = styled.ul`
 
 export default ({ children }) => {
   return (
-    <Section>
+    <Section headline={"Projects"}>
       <List>
         <VjamAndVgig></VjamAndVgig>
         <OfVideoLooper></OfVideoLooper>

@@ -3,12 +3,23 @@ import styled from "styled-components"
 
 const Container = styled.section`
   margin-top: 128px;
+  margin-bottom: 128px;
   &:first-of-type {
     margin-top: 0;
   }
-  margin-bottom: 128px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+`
+const Headline = styled.h2`
+  text-align: right;
 `
 
-export default ({ children }) => {
-  return <Container>{children}</Container>
+export default ({ headline, children }) => {
+  return (
+    <Container>
+      <Headline>{headline}</Headline>
+      {children}
+    </Container>
+  )
 }
