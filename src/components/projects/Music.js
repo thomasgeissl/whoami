@@ -9,8 +9,10 @@ export default () => {
   return (
     <Project date={"since 2018"}>
       <p>
-        As written earlier, music is a big thing in my life. Here are some of my
-        most recent musical projects.
+        As written earlier, music is a big thing in my life. Lately, I am very
+        much into experimental music and plugins, e.g. custom made plugins, such
+        as <a href="https://github.com/thomasgeissl/esrever">esrever</a>. Here
+        are some of my most recent musical projects.
       </p>
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6}>
@@ -54,16 +56,9 @@ export default () => {
             </a>
             .
           </p>
-          <Player
-            style={{ margin: "auto" }}
-            url="https://player.vimeo.com/video/437790737"
-          />
+          <Player url="https://player.vimeo.com/video/437790737" />
         </Grid>
       </Grid>
-      <p>
-        Very often I use experimental plugins, e.g. custom made plugins, such as{" "}
-        <a href="https://github.com/thomasgeissl/esrever">esrever</a>.
-      </p>
     </Project>
   )
 }

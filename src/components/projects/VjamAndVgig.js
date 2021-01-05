@@ -69,10 +69,9 @@ export default () => {
         >
           ofMIDI2MQTT
         </a>{" "}
-        can be used to use your favourite daw to play sounds in the virtual
+        can be used to send midi messages from your favourite daw to the virtual
         concert halls.
       </p>
-      <p>A proper description will follow.</p>
     </Project>
   )
 }
