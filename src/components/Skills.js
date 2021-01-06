@@ -57,7 +57,7 @@ export default () => {
           </p>
           <p>
             Unfortunately, I do not have access to laser cutters, but the 3D
-            printing parts very often helps to do build quick prototypes.
+            printing parts very often help to build quick prototypes.
           </p>
         </Grid>
       </Grid>
