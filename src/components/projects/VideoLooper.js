@@ -1,10 +1,6 @@
 import React from "react"
 import Project from "./Base"
 
-import Grid from "@material-ui/core/Grid"
-import vjam from "../../assets/images/vjam/screenshot.png"
-import vgig from "../../assets/images/vgig/screenshot.png"
-
 export default () => {
   return (
     <Project date={"in 2020"}>

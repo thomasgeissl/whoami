@@ -39,7 +39,7 @@ export default function Template({ data }) {
     <Container>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>whoami</title>
+        <title>whoami >_ thomasgeissl</title>
       </Helmet>
       <Section headline={"Intro"}>
         <div dangerouslySetInnerHTML={{ __html: intro.html }} />
@@ -55,6 +55,7 @@ export default function Template({ data }) {
       </Section>
 
       <Skills></Skills>
+      <CV></CV>
 
       <Section headline={"The end"}>
         <Footer dangerouslySetInnerHTML={{ __html: footer.html }} />

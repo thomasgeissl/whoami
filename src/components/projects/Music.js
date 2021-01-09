@@ -18,7 +18,7 @@ export default () => {
         <Grid item xs={12} sm={6}>
           <h3>glump</h3>
           <audio src={laparesse} controls></audio>
-          Guitars and electronics at glumb band.
+          Guitars and electronics at glump band.
         </Grid>
         <Grid item xs={12} sm={6}>
           <h3>Silent Sex</h3>

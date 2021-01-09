@@ -4,6 +4,9 @@ import styled from "styled-components"
 const Container = styled.section`
   margin-top: 128px;
   margin-bottom: 128px;
+  margin-left: 5px;
+  margin-right: 5px;
+
   &:first-of-type {
     margin-top: 0;
   }
