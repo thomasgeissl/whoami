@@ -9,7 +9,7 @@ export default ({ x, y }) => {
       r={5}
       stroke={"rgb(192, 126, 0)"}
       //   fill={"rgb(192, 126, 0)"}
-      fill="red"
+      fill="lightgray"
       //   fill="none"
     ></circle>
     // <g transform={`translate(${x}, ${y}, 0)`}>
