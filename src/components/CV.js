@@ -160,7 +160,7 @@ export default () => {
         not what I wanna do for the rest of my work life, I decided to do my
         Abitur at BOS and study afterwards. I studied to be a teacher
         (mathematics and informatics) and in parallel I did my bachelor's degree
-        in computer science (mathematics minor). I haven't finished the masters
+        in computer science (mathematics minor). I haven't finished the master's
         degree in human computer interaction and I haven't finished Lehramt, but
         I still like teaching and mentoring. It took my a while to find what I
         want and what I do not want, but now I am quite happy with the field I

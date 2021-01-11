@@ -41,7 +41,7 @@ export default () => {
           </IconContainer>
           <p>
             I am not an electrical engineer, but I am definitely not afraid of
-            the soldering iron, designing pcbs and getting them manufactored.
+            the soldering iron, designing pcbs and getting them manufactured.
           </p>
           <p>
             Arduino compatible boards are my friends, as well as raspberry pis.{" "}

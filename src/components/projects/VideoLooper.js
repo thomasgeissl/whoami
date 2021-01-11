@@ -8,7 +8,7 @@ export default () => {
         I wrote a little multi channel video looper for Residenztheater
         Muenchen. It is able to capture video from live video sources or load
         video clips from the hard disk. The software is fully midi controllable,
-        it can be synchronised with external midi clocks.
+        it can be synchronized with external midi clocks.
       </p>
       <p>
         The most challenging part was to get accurate frame seeking working.

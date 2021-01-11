@@ -10,7 +10,7 @@ export default () => {
     <Project date={"since 2018"}>
       <p>
         As written earlier, music is a big thing in my life. Lately, I am very
-        much into experimental music and plugins, e.g. custom made plugins, such
+        much into experimental music and plugins, e.g. custom-made plugins, such
         as <a href="https://github.com/thomasgeissl/esrever">esrever</a>. Here
         are some of my most recent musical projects.
       </p>
