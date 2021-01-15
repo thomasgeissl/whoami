@@ -7,7 +7,7 @@ import vgig from "../../assets/images/vgig/screenshot.png"
 
 export default () => {
   return (
-    <Project date={"in 2020"}>
+    <Project title={"vjam & vgig"} date={"in 2020"}>
       <p>
         <a
           href="https://thomasgeissl.github.io/vjam/"

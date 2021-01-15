@@ -5,7 +5,7 @@ import Player from "../Player"
 
 export default () => {
   return (
-    <Project date={"from 2014 to 2015"}>
+    <Project title="polywand" date={"from 2014 to 2015"}>
       <Grid container className="media">
         <Grid item xs={12} sm={4}>
           Several light concepts and development of{" "}

@@ -14,9 +14,10 @@ const Container = styled.li`
   }
 `
 
-export default ({ children, date }) => {
+export default ({ children, title, date }) => {
   return (
     <Container>
+      {title && <h3>{title}</h3>}
       {children}
       {date && <Date>{date}</Date>}
     </Container>

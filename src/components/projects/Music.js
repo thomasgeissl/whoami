@@ -7,7 +7,7 @@ import ohnmacht from "../../assets/audio/ohnmacht.mp3"
 
 export default () => {
   return (
-    <Project date={"since 2018"}>
+    <Project title="music and compositions" date={"since 2018"}>
       <p>
         As written earlier, music is a big thing in my life. Lately, I am very
         much into experimental music and plugins, e.g. custom-made plugins, such
@@ -16,12 +16,12 @@ export default () => {
       </p>
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6}>
-          <h3>glump</h3>
+          <h4>glump</h4>
           <audio src={laparesse} controls></audio>
           Guitars and electronics at glump band.
         </Grid>
         <Grid item xs={12} sm={6}>
-          <h3>Silent Sex</h3>
+          <h4>Silent Sex</h4>
           <audio src={ohnmacht} controls></audio>
           Keys and electronics at{" "}
           <a
@@ -37,7 +37,7 @@ export default () => {
         <Grid item xs={12}>
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <h3>Film Music</h3>
+              <h4>Film Music</h4>
             </Grid>
             <Grid item xs={12} sm={3}>
               <p>

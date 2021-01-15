@@ -5,7 +5,7 @@ import Player from "../Player"
 
 export default () => {
   return (
-    <Project date={"since 2020"}>
+    <Project title="record label grantler records" date={"since 2020"}>
       <p>
         <a href="https://grantlerrecords.com/" target="_blank" rel="noreferrer">
           grantler records

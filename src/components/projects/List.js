@@ -13,7 +13,9 @@ import Sharepool from "./Sharepool"
 import Polywand from "./PolyWand"
 
 const List = styled.ul`
-  list-style-type: square;
+  /* list-style-type: square; */
+  list-style-type: none !important;
+  padding-left: 0;
 `
 
 export default ({ children }) => {

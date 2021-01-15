@@ -5,10 +5,10 @@ import Player from "../Player"
 
 export default () => {
   return (
-    <Project date={"from 2012 to 2015"}>
+    <Project title="kapitael zwei kolektif" date={"from 2012 to 2015"}>
       <Grid container>
         <Grid item xs={12} sm={4}>
-          Several performances in collabration with Kapitel Zwei Kolektif, such
+          Several performances in collabration with Kapitael Zwei Kolektif, such
           as the{" "}
           <a href="http://www.twoinarow.com/2013/09/konterkunst-konkordia">
             Dauerperformance
@@ -17,7 +17,8 @@ export default () => {
           <a href="https://www.pinakothek.de/besuch/sammlung-moderne-kunst-der-pinakothek-der-moderne">
             Pinakothek der Moderne
           </a>
-          ).
+          ). In order to perform Dauerperformance, we built connected rfid
+          readers, web interfaces, voice user interfaces and a rule based AI.
         </Grid>
         <Grid item xs={12} sm={8} className="rightAlign">
           <Player

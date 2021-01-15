@@ -3,7 +3,7 @@ import Project from "./Base"
 
 export default () => {
   return (
-    <Project date={"in 2020"}>
+    <Project title={"video looper"} date={"in 2020"}>
       <p>
         I wrote a little multi channel video looper for Residenztheater
         Muenchen. It is able to capture video from live video sources or load

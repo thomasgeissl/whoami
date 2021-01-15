@@ -4,7 +4,7 @@ import blt from "../../assets/images/nantlab/blt.jpg"
 
 export default () => {
   return (
-    <Project date={"since 2012"}>
+    <Project title="nantlab" date={"since 2012"}>
       Several interactive installations with{" "}
       <a href="https://www.instagram.com/nantlab/">nantlab</a>, ranging from
       interior design to live visuals and everything in between. E.g.{" "}
