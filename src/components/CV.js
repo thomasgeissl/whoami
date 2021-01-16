@@ -162,7 +162,7 @@ export default () => {
         (mathematics and informatics) and in parallel I did my bachelor's degree
         in computer science (mathematics minor). I haven't finished the master's
         degree in human computer interaction and I haven't finished Lehramt, but
-        I still like teaching and mentoring. It took my a while to find what I
+        I still like teaching and mentoring. It took me a while to find what I
         want and what I do not want, but now I am quite happy with the field I
         am working in.
       </p>
