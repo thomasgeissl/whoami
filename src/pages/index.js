@@ -41,23 +41,23 @@ export default function Template({ data }) {
         <meta charSet="utf-8" />
         <title>whoami >_ thomasgeissl</title>
       </Helmet>
-      <Section headline={"Intro"}>
+      <Section id="intro" headline={"Intro"}>
         <div dangerouslySetInnerHTML={{ __html: intro.html }} />
       </Section>
+      <Skills id="skills"></Skills>
 
-      <Projects></Projects>
+      <Projects id="projects"></Projects>
 
-      <Section headline={"Open source software"}>
+      <Section id="software" headline={"Open source software"}>
         <div
           className="software"
           dangerouslySetInnerHTML={{ __html: software.html }}
         />
       </Section>
 
-      <Skills></Skills>
-      <CV></CV>
+      <CV id="cv"></CV>
 
-      <Section headline={"The end"}>
+      <Section id="outro" headline={"Outro"}>
         <Footer dangerouslySetInnerHTML={{ __html: footer.html }} />
       </Section>
     </Container>

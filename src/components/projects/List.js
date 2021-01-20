@@ -21,6 +21,9 @@ const List = styled.ul`
 export default ({ children }) => {
   return (
     <Section headline={"Projects"}>
+      Unfortunately, I cannot show most of the projects I have worked on due to
+      confidentiality reasons. But here is a small selection of projects I did
+      aside from my job.
       <List>
         <VjamAndVgig></VjamAndVgig>
         <OfVideoLooper></OfVideoLooper>
