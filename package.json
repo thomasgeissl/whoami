@@ -36,6 +36,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "travisdeploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/thomasgeissl/whoami.git -b master",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
