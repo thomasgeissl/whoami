@@ -2,8 +2,14 @@
   font-family: alegreya;
   src: url(../assets/fonts/AlegreyaSans-Light.ttf);
 }
+@font-face {
+  font-family: 'Exo 2';
+  src: url(../assets/fonts/Exo_2/static/Exo2-Light.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
 html {
-  font-family: alegreya;
+  // font-family: alegreya;
+  font-family: 'Exo 2', sans-serif;
   a {
     color: rgb(192, 126, 0);
   }
