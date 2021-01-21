@@ -16,6 +16,12 @@ const Container = styled.section`
 `
 const Headline = styled.h2`
   text-align: right;
+  font-size: 42px;
+  margin-top: 400px;
+  margin-bottom: 100px;
+  /* @media only screen and (max-width: 600px) {
+    margin-top: 200px;
+  } */
 `
 
 export default ({ headline, children }) => {
