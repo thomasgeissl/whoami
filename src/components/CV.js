@@ -75,7 +75,10 @@ export default () => {
   }
 
   return (
-    <Section headline={"Past, present, future"}>
+    <Section
+      headline={"Past, present, future"}
+      hiddenSubline={"My json2svg rendered cv"}
+    >
       <ScrollContainer>
         <svg width="100%" style={{ minWidth: "1000px", minHeight: "300px" }}>
           <line

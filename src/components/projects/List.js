@@ -20,7 +20,7 @@ const List = styled.ul`
 
 export default ({ children }) => {
   return (
-    <Section headline={"Projects"}>
+    <Section headline={"Projects"} hiddenSubline={"The ones I enjoyed doing"}>
       Unfortunately, I cannot show most of the projects I have worked on due to
       confidentiality reasons. But here is a small selection of projects I did
       aside from my job.

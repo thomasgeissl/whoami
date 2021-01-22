@@ -52,19 +52,31 @@ export default function Template({ data }) {
       <Visual active={showVisual}></Visual>
       <Content>
         {/* <Controls></Controls> */}
-        <Section id="intro" headline={"Intro"}>
+        <Section
+          id="intro"
+          headline={"Intro"}
+          hiddenSubline={"Griasdi, servus"}
+        >
           <div dangerouslySetInnerHTML={{ __html: intro.html }} />
         </Section>
         <Skills id="skills"></Skills>
         <Projects id="projects"></Projects>
-        <Section id="software" headline={"Open source software"}>
+        <Section
+          id="software"
+          headline={"Open source software"}
+          hiddenSubline={"Tools and libraries"}
+        >
           <div
             className="software"
             dangerouslySetInnerHTML={{ __html: software.html }}
           />
         </Section>
         <CV id="cv"></CV>
-        <Section id="outro" headline={"Outro"}>
+        <Section
+          id="outro"
+          headline={"Outro"}
+          hiddenSubline={"Let's get connected"}
+        >
           <Footer dangerouslySetInnerHTML={{ __html: footer.html }} />
         </Section>
       </Content>
