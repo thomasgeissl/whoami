@@ -32,7 +32,7 @@ export default ({ children }) => {
         <Music></Music>
         <Nantlab></Nantlab>
         <Kapitel2Kolektif></Kapitel2Kolektif>
-        <Sharepool></Sharepool>
+        {/* <Sharepool></Sharepool> */}
         <Polywand></Polywand>
         {children}
       </List>

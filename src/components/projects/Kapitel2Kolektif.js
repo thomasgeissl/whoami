@@ -4,8 +4,30 @@ import Project from "./Base"
 import Player from "../Player"
 
 export default () => {
+  const more = (
+    <>
+      <p>
+        Dauerperformance used a quite complex IT system and dev stack behind the
+        scenes. All performers were equiped with rfid tags, which they used to
+        to be indentified and trigger events at the different stations. We wrote
+        a couple of web interfaces, e.g. registration at the borders, school
+        learning platforms and admin dashboards. All web interfaces were written
+        using angular. The whole building was monitored via poe surveillance
+        cameras. Some of the camera streams were embedded in the public website.
+        Our multichannel audio setup was routed through ableton live, the text
+        to speech engine based on osx' internal text to speech tool, speech
+        recognition was written with openFramweworks. The AI was written using
+        some java server framework, which I dont remember, as I have not been
+        much involved in the AI development.
+      </p>
+    </>
+  )
   return (
-    <Project title="kapitael zwei kolektif" date={"from 2012 to 2015"}>
+    <Project
+      title="kapitael zwei kolektif"
+      more={more}
+      date={"from 2012 to 2015"}
+    >
       <Grid container>
         <Grid item xs={12} sm={4}>
           Several performances in collabration with Kapitael Zwei Kolektif, such

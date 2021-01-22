@@ -18,12 +18,25 @@ const Headline = styled.h3`
   font-size: 32px;
 `
 
-export default ({ children, title, date }) => {
+const Button = styled.span`
+  color: rgb(192, 126, 0);
+  cursor: pointer;
+`
+
+export default ({ children, title, date, more }) => {
   const [showMore, setShowMore] = useState(false)
   return (
     <Container>
       {title && <Headline>{title}</Headline>}
       {children}
+      {more && (
+        <>
+          <Button onClick={() => setShowMore(!showMore)}>
+            {showMore ? <>less</> : <>more</>}
+          </Button>
+          {showMore && more}
+        </>
+      )}
       {date && <Date>{date}</Date>}
     </Container>
   )
