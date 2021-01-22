@@ -38,8 +38,9 @@ export default () => {
           <Grid container spacing={3}>
             <Grid item xs={12}>
               <h4>Film Music</h4>
+              <Player url="https://player.vimeo.com/video/437790737" />
             </Grid>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12}>
               <p>
                 I had to pleasure to score my very talented friend Aylin's short
                 film "Spirits and Rocks: an Azorean Myth". It was premiered at{" "}
@@ -61,9 +62,7 @@ export default () => {
                 .
               </p>
             </Grid>
-            <Grid item xs={12} sm={9}>
-              <Player url="https://player.vimeo.com/video/437790737" />
-            </Grid>
+            <Grid item xs={12} sm={9}></Grid>
           </Grid>
         </Grid>
       </Grid>

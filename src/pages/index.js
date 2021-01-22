@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
@@ -9,6 +9,9 @@ import Projects from "../components/projects/List"
 import Skills from "../components/Skills"
 import CV from "../components/CV"
 import "../styles/global.scss"
+
+import Controls from "../components/visual/Controls"
+import Visual from "../components/visual/Visual"
 
 const Container = styled.div`
   margin: auto;
@@ -30,36 +33,41 @@ const Container = styled.div`
     list-style-type: square;
   }
 `
+const Content = styled.div`
+  position: relative;
+  z-index: 1;
+`
 
 // const CV = styled.div``
 const Footer = styled.footer``
 export default function Template({ data }) {
   const { intro, software, footer } = data
+  const [showVisual, setShowVisual] = useState(true)
   return (
     <Container>
       <Helmet>
         <meta charSet="utf-8" />
         <title>whoami >_ thomasgeissl</title>
       </Helmet>
-      <Section id="intro" headline={"Intro"}>
-        <div dangerouslySetInnerHTML={{ __html: intro.html }} />
-      </Section>
-      <Skills id="skills"></Skills>
-
-      <Projects id="projects"></Projects>
-
-      <Section id="software" headline={"Open source software"}>
-        <div
-          className="software"
-          dangerouslySetInnerHTML={{ __html: software.html }}
-        />
-      </Section>
-
-      <CV id="cv"></CV>
-
-      <Section id="outro" headline={"Outro"}>
-        <Footer dangerouslySetInnerHTML={{ __html: footer.html }} />
-      </Section>
+      <Visual active={showVisual}></Visual>
+      <Content>
+        {/* <Controls></Controls> */}
+        <Section id="intro" headline={"Intro"}>
+          <div dangerouslySetInnerHTML={{ __html: intro.html }} />
+        </Section>
+        <Skills id="skills"></Skills>
+        <Projects id="projects"></Projects>
+        <Section id="software" headline={"Open source software"}>
+          <div
+            className="software"
+            dangerouslySetInnerHTML={{ __html: software.html }}
+          />
+        </Section>
+        <CV id="cv"></CV>
+        <Section id="outro" headline={"Outro"}>
+          <Footer dangerouslySetInnerHTML={{ __html: footer.html }} />
+        </Section>
+      </Content>
     </Container>
   )
 }

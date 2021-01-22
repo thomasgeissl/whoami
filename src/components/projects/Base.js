@@ -1,10 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import Date from "../Date"
 
 const Container = styled.li`
-  margin-top: 96px;
-  margin-bottom: 96px;
+  margin-top: 128px;
+  margin-bottom: 128;
   .rightAlign {
     padding-left: 24px;
     text-align: right;
@@ -14,10 +14,15 @@ const Container = styled.li`
   }
 `
 
+const Headline = styled.h3`
+  font-size: 32px;
+`
+
 export default ({ children, title, date }) => {
+  const [showMore, setShowMore] = useState(false)
   return (
     <Container>
-      {title && <h3>{title}</h3>}
+      {title && <Headline>{title}</Headline>}
       {children}
       {date && <Date>{date}</Date>}
     </Container>

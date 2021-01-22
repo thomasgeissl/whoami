@@ -91,15 +91,15 @@ export default () => {
             //   console.log(`${((year - startYear) / (endYear - startYear)) * 100}%`)
             if (index > 0 && index < years.length - 1) {
               return (
-                <text x={getPos(year)} y="20" textAnchor={"middle"}>
+                <text key={index} x={getPos(year)} y="20" textAnchor={"middle"}>
                   {year}
                 </text>
               )
             }
           })}
-          {events.map(event => {
+          {events.map((event, index) => {
             return (
-              <>
+              <g key={index}>
                 {event.year && (
                   <>
                     <Marker x={event.year} y={40}></Marker>
@@ -150,7 +150,7 @@ export default () => {
                     </text>
                   </>
                 )}
-              </>
+              </g>
             )
           })}
         </svg>
