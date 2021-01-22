@@ -49,9 +49,13 @@ export default function Template({ data }) {
         <meta charSet="utf-8" />
         <title>whoami >_ thomasgeissl</title>
       </Helmet>
+      <Controls
+        state={showVisual}
+        onHandler={() => setShowVisual(true)}
+        offHandler={() => setShowVisual(false)}
+      ></Controls>
       <Visual active={showVisual}></Visual>
       <Content>
-        {/* <Controls></Controls> */}
         <Section
           id="intro"
           headline={"Intro"}
