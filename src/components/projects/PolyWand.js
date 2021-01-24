@@ -13,11 +13,11 @@ export default () => {
         module is assembled of four individually controllable triangles. We
         created a kinetic sculpture that reacts to its viewer. It visually
         adapts to its environment, it acts as an abstract mirror. Tilting the
-        polygons creates very unique patterns, and the polygons reflect lights
-        which can be used to connect custom controllers. It can be configured to
-        react to music or people speaking or environment noises. In combination
-        with a kinect 3D camera it can be controlled via gestures, such as
-        waving.
+        polygons creates very unique patterns and reflections. It can be
+        configured to react to music, people speaking or environment noises. In
+        combination with a kinect 3D camera it can be controlled via gestures,
+        such as waving. Also it can open an osc interface, which can be used to
+        connect custom controllers.
       </p>
       <p>
         An arduino microcontroller drives 72 servo motors. The control software
