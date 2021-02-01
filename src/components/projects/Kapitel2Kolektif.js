@@ -29,7 +29,7 @@ export default () => {
       date={"from 2012 to 2015"}
     >
       <Grid container>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={4} style={{ textAlign: "left" }}>
           Several performances in collabration with Kapitael Zwei Kolektif, such
           as the{" "}
           <a href="http://www.twoinarow.com/2013/09/konterkunst-konkordia">

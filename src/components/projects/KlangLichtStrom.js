@@ -7,7 +7,7 @@ export default () => {
   return (
     <Project title={"Klang-/Licht-STROM"} date={"since 2018"}>
       <Grid container className="media">
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={4} style={{ textAlign: "left" }}>
           <p>
             <a
               href="https://klanglichtstrom.de"

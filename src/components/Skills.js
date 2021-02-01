@@ -16,8 +16,8 @@ export default () => {
   const iconStyle = { fontSize: "64px" }
   return (
     <Section headline={"What I do"} hiddenSubline={"My skills"}>
-      <Grid container spacing={3}>
-        <Grid item sm={4} xs={12} style={{ textAlign: "center" }}>
+      <Grid container spacing={3} style={{ textAlign: "left" }}>
+        <Grid item sm={4} xs={12}>
           <IconContainer>
             <CodeIcon style={iconStyle}></CodeIcon>
           </IconContainer>
@@ -52,8 +52,8 @@ export default () => {
             <BuildIcon style={iconStyle}></BuildIcon>
           </IconContainer>
           <p>
-            I am a DIY person. It might sound cheesy, but I love working with
-            wood and building my own mechanical parts.
+            I am a DIY person. I love working with wood and building my own
+            mechanical parts.
           </p>
           <p>
             Unfortunately, I do not have access to laser cutters, but the 3D
@@ -61,10 +61,10 @@ export default () => {
           </p>
         </Grid>
       </Grid>
-      <p>
+      {/* <p>
         This is a only small and not very detailed selection of my skills. Let's
         have a conversation if you are interested or have any questions.
-      </p>
+      </p> */}
     </Section>
   )
 }
