@@ -16,7 +16,7 @@ export default () => {
       </p>
       <p>
         The blogging software is written with gastbyjs, hosted on github pages,
-        deployed via travis continuous integration.
+        built and deployed with github actions.
       </p>
     </Project>
   )
