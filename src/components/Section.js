@@ -32,9 +32,9 @@ const HiddenSubline = styled.h3`
   } */
 `
 
-export default ({ headline, hiddenSubline, children }) => {
+export default ({ id, headline, hiddenSubline, children }) => {
   return (
-    <Container>
+    <Container id={id}>
       <Headline>{headline}</Headline>
       <HiddenSubline>{hiddenSubline}</HiddenSubline>
       {children}

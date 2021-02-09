@@ -77,6 +77,7 @@ export default () => {
 
   return (
     <Section
+      id={"cv"}
       headline={"Past, present, future"}
       hiddenSubline={"My json2svg rendered cv"}
     >
