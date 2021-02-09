@@ -1,7 +1,7 @@
 # whoami
 
 ## Description
-this is the code for my portfolio page. still work in progress.
+this is the code for my portfolio page. still work in progress. ... and will always be.
 
-## Build Status
-[![Build Status](https://travis-ci.com/thomasgeissl/whoami.svg?branch=develop)](https://travis-ci.com/thomasgeissl/whoami)
+## Build status
+[![Build Status](https://github.com/thomasgeissl/whoami/workflows/develop_deploy/badge.svg)](https://github.com/thomasgeissl/whoami/actions?query=workflow%3Adevelop_deploy)
