@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import Section from "../Section"
+import LuceDiretta from "./LuceDiretta"
 import VjamAndVgig from "./VjamAndVgig"
 import OfVideoLooper from "./VideoLooper"
 import KlangLichtStrom from "./KlangLichtStrom"
@@ -25,6 +26,7 @@ export default ({ children }) => {
       confidentiality reasons. But here is a small selection of projects I did
       aside from my job.
       <List>
+        <LuceDiretta></LuceDiretta>
         <VjamAndVgig></VjamAndVgig>
         <OfVideoLooper></OfVideoLooper>
         <KlangLichtStrom></KlangLichtStrom>
