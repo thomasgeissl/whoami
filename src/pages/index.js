@@ -8,7 +8,7 @@ import styled from "styled-components"
 import Projects from "../components/projects/List"
 import Skills from "../components/Skills"
 import CV from "../components/CV"
-import "../styles/global.scss"
+import "../styles/global.css"
 
 import Controls from "../components/visual/Controls"
 import Visual from "../components/visual/Visual"
