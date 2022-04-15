@@ -51,17 +51,24 @@ export default () => {
       success: false,
     },
     {
-      start: 2011,
-      end: 2021,
-      label: "Creative Technologist (Freelance)",
-      y: 4,
-      success: true,
-    },
-    {
       start: 2016,
       end: 2021,
       label: "Creative Technologist (IXDS)",
       y: 3,
+      success: true,
+    },
+    {
+      start: 2021,
+      end: 2022,
+      label: "Creative Technologist (2av)",
+      y: 4,
+      success: true,
+    },
+    {
+      start: 2011,
+      end: 2022,
+      label: "Creative Technologist (Freelance)",
+      y: 5,
       success: true,
     },
   ]
