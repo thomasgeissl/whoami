@@ -9,10 +9,9 @@ const ScrollContainer = styled.div`
   overflow-x: scroll;
 `
 
-export default () => {
-  const iconStyle = { fontSize: "64px" }
+const CV = () => {
   const startYear = 2003
-  const endYear = 2022
+  const endYear = 2024
   const years = []
   for (let i = startYear; i <= endYear; i++) {
     years.push(i)
@@ -61,14 +60,15 @@ export default () => {
       start: 2021,
       end: 2022,
       label: "Creative Technologist (2av)",
-      y: 4,
+      labelBottom: true,
+      y: 3,
       success: true,
     },
     {
       start: 2011,
       end: 2022,
       label: "Creative Technologist (Freelance)",
-      y: 5,
+      y: 4,
       success: true,
     },
   ]
@@ -90,7 +90,10 @@ export default () => {
     >
       <Container>
         <ScrollContainer>
-          <svg width="100%" style={{ minWidth: "1000px", minHeight: "300px" }}>
+          <svg
+            width="100%"
+            style={{ minWidth: "1000px", minHeight: "300px", fontSize: "14px" }}
+          >
             <line
               x1="0"
               y1="0"
@@ -113,6 +116,8 @@ export default () => {
                     {year}
                   </text>
                 )
+              } else {
+                return <></>
               }
             })}
             {events.map((event, index) => {
@@ -183,9 +188,12 @@ export default () => {
           Lehramt, but I still like teaching and mentoring. It took me a while
           to find what I want and what I do not want, but now I am quite happy
           with the field I am working in. Currently, I work as a creative
-          technologist at IXDS and besides that I am freelancing.
+          technologist at 2av, building interactive exhibits and tools. Besides
+          that I am freelancing.
         </p>
       </Container>
     </Section>
   )
 }
+
+export default CV
