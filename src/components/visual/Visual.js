@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react"
 import * as THREE from "three"
-import { Canvas, useFrame } from "react-three-fiber"
-import { useSprings, a } from "react-spring/three"
+import { Canvas, useFrame } from "@react-three/fiber"
+import { useSprings, a } from "@react-spring/three"
 
 import {
   EffectComposer,
@@ -10,34 +10,6 @@ import {
   Glitch,
 } from "@react-three/postprocessing"
 import { GlitchMode } from "postprocessing"
-
-function Box(props) {
-  // This reference will give us direct access to the mesh
-  const mesh = useRef()
-
-  // Set up state for the hovered and active state
-  const [hovered, setHover] = useState(false)
-  const [active, setActive] = useState(false)
-
-  // Rotate mesh every frame, this is outside of React without overhead
-  useFrame(() => {
-    mesh.current.rotation.x = mesh.current.rotation.y += 0.01
-  })
-
-  return (
-    <mesh
-      {...props}
-      ref={mesh}
-      scale={active ? [1.5, 1.5, 1.5] : [1, 1, 1]}
-      onClick={event => setActive(!active)}
-      onPointerOver={event => setHover(true)}
-      onPointerOut={event => setHover(false)}
-    >
-      <boxBufferGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
-    </mesh>
-  )
-}
 
 const number = 12
 const colors = ["rgb(192, 126, 32)", "rgb(32,32,32)"]
