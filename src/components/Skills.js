@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-import Grid from "@material-ui/core/Grid"
-import CodeIcon from "@material-ui/icons/Code"
-import PowerIcon from "@material-ui/icons/Power"
-import BuildIcon from "@material-ui/icons/Build"
+import Grid from "@mui/material/Grid"
+import CodeIcon from "@mui/icons-material/Code"
+import PowerIcon from "@mui/icons-material/Power"
+import BuildIcon from "@mui/icons-material/Build"
 
 import Section from "./Section"
 
