@@ -11,7 +11,7 @@ const ScrollContainer = styled.div`
 
 const CV = () => {
   const startYear = 2003
-  const endYear = 2024
+  const endYear = 2023
   const years = []
   for (let i = startYear; i <= endYear; i++) {
     years.push(i)
@@ -69,6 +69,13 @@ const CV = () => {
       end: 2022,
       label: "Creative Technologist (Freelance)",
       y: 4,
+      success: true,
+    },
+    {
+      start: 2021,
+      end: 2022,
+      label: "Lecturer (Machine Learning)",
+      y: 5,
       success: true,
     },
   ]
